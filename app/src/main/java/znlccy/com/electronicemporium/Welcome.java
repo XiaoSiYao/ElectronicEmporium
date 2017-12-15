@@ -22,7 +22,7 @@ public class Welcome extends AppCompatActivity {
         openIndexBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Welcome.this,Index.class);
+                Intent intent = new Intent(Welcome.this,SettingsActivity.class);
                 intent.putExtra("name","chencongye");
                 startActivity(intent);
             }
@@ -37,5 +37,9 @@ public class Welcome extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void sendJsonData() {
+
     }
 }
