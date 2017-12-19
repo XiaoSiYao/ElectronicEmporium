@@ -1,14 +1,18 @@
 package znlccy.com.electronicemporium;
 
+import android.app.job.JobInfo;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.ArrayMap;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import java.util.Map;
 
 public class Welcome extends AppCompatActivity {
 
@@ -67,6 +71,6 @@ public class Welcome extends AppCompatActivity {
     }
 
     public void sendJsonData() {
-
+        
     }
 }

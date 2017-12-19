@@ -14,10 +14,5 @@ public class Index extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_index);
 
-        showEditText = (EditText) findViewById(R.id.showText_id);
-        Intent intent = new Intent();
-        String content = intent.getStringExtra("name");
-        System.err.println(content);
-        showEditText.setText(content);
     }
 }
