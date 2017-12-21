@@ -11,22 +11,25 @@
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 
+    <!--使用Google地图-->
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Welcome">
+        <activity android:name="znlccy.com.electroniceporium.Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Index" />
-        <activity android:name=".Registered" />
-        <activity android:name=".MobileQuickLogin" />
+        <activity android:name="znlccy.com.electroniceporium.Index" />
+        <activity android:name="znlccy.com.electroniceporium.Registered" />
+        <activity android:name="znlccy.com.electroniceporium.MobileQuickLogin" />
+        <!--<uses-library android:name="com.google.android.maps"></uses-library>-->
     </application>
 
 </manifest>

@@ -1,7 +1,9 @@
-package znlccy.com.electronicemporium;
+package znlccy.com.electroniceporium;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import znlccy.com.electronicemporium.R;
 
 /**
  * @Author Chencongye
