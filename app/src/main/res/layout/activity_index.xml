@@ -6,6 +6,7 @@
     android:orientation="vertical"
     tools:context="znlccy.com.electroniceporium.Welcome">
 
+    <!--<include layout="@layout/activity_welcome"></include>-->
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +18,7 @@
     <WebView
         android:id="@+id/web_id"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="30dp">
 
     </WebView>
     <!--<ImageButton

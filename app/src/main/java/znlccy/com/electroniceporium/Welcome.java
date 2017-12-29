@@ -32,8 +32,6 @@ public class Welcome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-
-
         openIndexBtn = (Button) findViewById(R.id.index_id);
         openIndexBtn.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,5 +1,6 @@
 package znlccy.com.electroniceporium;
 
+import android.support.annotation.BinderThread;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -38,4 +39,7 @@ public class Registered extends AppCompatActivity {
         TextView username = (TextView) findViewById(R.id.username_id);
     }
 
+    public void data(View v,int nameId) {
+        String s = getResources().getString(nameId);
+    }
 }
